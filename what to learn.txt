@@ -1,0 +1,15 @@
+Core React basics
+Components
+JSX
+Props
+State (useState)
+Events (onClick, onChange)
+Lists (map)
+✔️ API work
+useEffect
+fetch / Axios
+loading data
+sending data (POST)
+✔️ Forms
+input handling
+submit form
