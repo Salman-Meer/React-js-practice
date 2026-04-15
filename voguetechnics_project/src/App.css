@@ -1,0 +1,19 @@
+@media (max-width: 600px) {
+  .logo_img {
+    width: 100px;
+  }
+}
+
+.Banner {
+    background-image:linear-gradient(rgb(2, 149, 76, 0.6), rgb(2, 149, 76, 0.6) ), url('/banner.png');
+    background-size: cover;
+    background-position: center;
+   height: 400px;
+    width: 100%;    
+}
+.facebook{
+  color: white;
+}
+.facebook:hover{
+  color: rgb(25, 158, 25);
+}

@@ -1,0 +1,19 @@
+/* Desktop: show menus */
+.desktop-menu {
+  display: flex;
+  gap: 10px;
+}
+
+/* Mobile/Tablet: hide menus */
+@media (max-width: 900px) {
+  .desktop-menu {
+    display: none;
+  }
+}
+
+/* Desktop: hide hamburger */
+@media (min-width: 901px) {
+  .mobile-menu {
+    display: none;
+  }
+}
