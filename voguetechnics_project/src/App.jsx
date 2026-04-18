@@ -1,14 +1,22 @@
-import Header from "./header/Header";
-import Footer from "./footer/Footer";
-import Banner from "./banner/Banner"
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Blog from "./blog/Blog";
+import Blog_details from "./blog/Blog_details";
+import Home from "./Home";
 function App() {
  
 
   return (
     <>
-      <Header />
-      <Banner />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:slug" element={<Blog_details />} />
+
+        </Routes>
+      </BrowserRouter>
+      
       
     
     </>

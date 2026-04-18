@@ -1,0 +1,195 @@
+body
+{
+  background-color: black;
+}
+.language{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: 1px solid rgb(0, 0, 0);
+}
+.language b{
+    color: white;       
+    font-size: 14px;
+    font-family: Arial;
+    margin-left: 5px;
+  
+}
+.language img{
+  width:18px;
+  margin-left:5px;
+}
+
+@media (min-width: 600px) and (max-width: 999px){
+  .language b {
+    margin-left: 0;
+    font-size: 12px;
+  }
+
+  .language img {
+    
+    margin-right: 0;
+    height: 15px;
+    width: 20px;
+  }
+  .language .dropdown{
+    font-size: 16px;
+  }
+}
+
+
+@media (min-width: 300px) and (max-width: 599px) {
+    .language b {
+    
+    margin-left: 0;
+    font-size: 5px;
+  }
+
+  .language img {
+    
+    margin-right: 0;
+    width: 6px;
+  }
+   .language .dropdown{
+    font-size: 8px;
+  }
+}
+.language:hover{
+  border: 1px solid white;
+}
+
+.HellowSignin{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+.AccountList{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+}
+.HelloSigin_outer{
+  border:1px solid black;
+}
+.HelloSigin_outer:hover{
+  border:1px solid white;
+}
+@media (min-width: 900px) and (max-width: 1199px){
+.HellowSignin{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 7px;
+}
+
+.AccountList{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 7px;
+  font-weight: bold;
+}
+}
+@media (min-width: 600px) and (max-width: 899px){
+.HellowSignin{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 6px;
+}
+
+.AccountList{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 6px;
+  font-weight: bold;
+}
+.dropdownSignin{
+  font-size: 0px;
+}
+}
+
+@media (min-width: 200px) and (max-width: 599px){
+.HellowSignin{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5px;
+}
+
+.AccountList{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5px;
+  font-weight: bold;
+}
+.dropdownSignin{
+  font-size: 2px;
+}
+
+}
+
+
+
+
+
+@media (min-width: 900px) and (max-width: 1199px){
+.Return{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+.Order{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+}
+}
+@media (min-width: 600px) and (max-width: 899px){
+.Return{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+.Order{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+}
+}
+
+@media (min-width: 200px) and (max-width: 599px){
+.Return{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8px;
+}
+
+.Order{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8px;
+  font-weight: bold;
+}
+
+}
+
+
+.Card_icon{
+  font-size:300px;
+}
+
+.menubtn{
+   color: rgb(255, 255, 255);        /* ✅ correct */
+   font-size: 16px;
+   font-family: Arial;
+}
+.banner{
+ background-image: url('https://m.media-amazon.com/images/I/61Z5DaOEVeL._SX3000_.jpg');
+ background-size: cover;
+    background-position: center;
+   height: 600px;
+    width: 100%;    
+}

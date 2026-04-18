@@ -4,13 +4,10 @@ import PinterestIcon from "@mui/icons-material/Pinterest";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import XIcon from "@mui/icons-material/X";
 import {
-
   Button,
   IconButton,
   Menu,
   MenuItem,
-  
-  
 } from "@mui/material";
 
 
@@ -31,8 +28,8 @@ function Footer() {
 
       <Grid container style={{ backgroundColor: "#202b30" }} spacing={1}>
             <Grid item size={{xs: 1, sm: 1, md: 1, lg: 1 }}>
+                
             </Grid>
-
             <Grid item size={{xs: 10, sm: 10, md: 10, lg: 10 }}>
                 <Grid container>
                             <Grid item size={{xs: 12, sm: 12, md: 4, lg: 3 }} style={{ marginTop: "2vw" }} >

@@ -4,7 +4,7 @@ function Forms() {
     const [Email, setEmail] = React.useState("");
     console.log(Name, Email);
     function handleSubmit(event) {
-        event.preventDefault();
+        event.preventDefault();//the page will not refresh due to this
         console.log(Name, Email);
     }
   return (
